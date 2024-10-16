@@ -39,7 +39,29 @@ The while loop does not run a specific number of times,
 The condition does not have to be a counter, 
 it could be the status of an operation or
 any condition that evaluates to either true or false.
-
-
 */
+
+// ! FOR LOOP
+// EXAMPLE:
+
+for ($i=0; $i < 10; $i++) {
+    echo $i . "<br>";
+}
+//? it print the number from 0 to 9;
+
+//! Foreach loop
+// * it used to loop through array
+//example:
+$languages = [
+    "java",
+    "C++",
+    "C",
+    "javascript",
+    "PHP",
+    "python"
+];
+
+foreach ($languages as $language) {
+    echo "$language <br>";
+}
 ?>
