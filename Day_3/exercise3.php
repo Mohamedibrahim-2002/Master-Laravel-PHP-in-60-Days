@@ -8,38 +8,46 @@ $students = [
 ];
 
 // Extract grades from the students array
+$grades = [];
 foreach ($students as $student) {
-    $grades[] = $student['grade'];
+    if (isset($student['grade'])) {  // Ensure the grade key exists
+        $grades[] = $student['grade'];
+    }
 }
+
 
 // 1. Function to calculate the average grade
 function calculateAverage($grades) {
+    if (count($grades) == 0) return 0;  // Avoid division by zero
     $total = array_sum($grades); // Sum up all grades
     $average = $total / count($grades); // Calculate the average
     return $average;
 }
 
+
 // 2. Function to find the student with the highest grade
 function findHighestGrade($students) {
-    $highest = $students[0]; // Assume the first student has the highest grade initially
+    $highest = null;  // Start with null
     foreach ($students as $student) {
-        if ($student['grade'] > $highest['grade']) {
+        if (isset($student['grade']) && ($highest === null || $student['grade'] > $highest['grade'])) {
             $highest = $student;
         }
     }
     return $highest;
 }
 
+
 // 3. Function to get students with grades above a certain threshold
 function studentsAboveThreshold($students, $threshold) {
     $filtered = [];
     foreach ($students as $student) {
-        if ($student['grade'] > $threshold) {
+        if (isset($student['grade']) && $student['grade'] > $threshold) {
             $filtered[] = $student;
         }
     }
     return $filtered;
 }
+
 
 // Display the results
 
