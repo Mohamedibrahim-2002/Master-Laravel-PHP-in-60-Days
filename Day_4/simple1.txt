@@ -1,0 +1,2 @@
+Hello Ibrahim, you can access this file using php.
+Let's master the PHP laravel.
