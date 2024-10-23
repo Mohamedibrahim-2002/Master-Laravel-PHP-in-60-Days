@@ -1,0 +1,24 @@
+ Username: Messi10 
+ Email: leo@gmail.com 
+ Password: Leo@1234567 
+ HashedPassword: $2y$10$ahVYpcey1x./hXbdNgOwe.IhSJGww9rPy37DMFR..apAh70hL2mWW 
+ User: Messi10 logged in at 2024-10-21 09:17:24 
+
+ Username: leo10 
+ Email: leomessi@gmail.com 
+ Password: LeoMessi@210 
+ HashedPassword: $2y$10$EpkrLDPEcd41IMoGeOwqqOE2MqdnLyX.21gkWoMQ3K.yMch9AZSrC 
+ User: leo10 logged in at 2024-10-21 09:30:45 
+
+ Username: neymar10 
+ Email: neymar@njr10.com 
+ Password: Neymar@njr10 
+ HashedPassword: $2y$10$hYFVbh1n/p6CLTQBVHuvkOwBgvWfkM.U9XHq1.j6ymjejlvVdSnt2 
+ User: neymar10 logged in at 2024-10-21 09:36:00 
+
+ Username: ronaldo 
+ Email: criss@ronaldo.com 
+ Password: Criss@cr7 
+ HashedPassword: $2y$10$AVd6/oulrBBHD8dUPtA9nesC7jmaA1z5AYI1gA8mnwrz7ppoduXga 
+ User: ronaldo logged in at 2024-10-22 07:16:02 
+
